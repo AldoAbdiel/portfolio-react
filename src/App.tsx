@@ -19,7 +19,7 @@ import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   return (
     <>
@@ -79,7 +79,7 @@ function App() {
                     : "text-2xl py-2 md:text-3xl"
                 }
               >
-                Developer and gamer.
+                Developer and Gamer.
               </h3>
               <p
                 className={
